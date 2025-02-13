@@ -52,34 +52,36 @@
         android:layout_height="match_parent"
         android:layout_margin="5dp"
         android:orientation="vertical">
-        <LinearLayout style="@style/calc_row_btn"
+
+        <LinearLayout
+            style="@style/calc_row_btn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal">
+            >
             <Button
                 android:id="@+id/calc_btn_MC"
                 style="@style/calc_btn_history"
-                android:text="@string/calc_btn_MC"/>
+                android:text="@string/calc_btn_MC" />
             <Button
                 android:id="@+id/calc_btn_MR"
                 style="@style/calc_btn_history"
-                android:text="@string/calc_btn_MR"/>
+                android:text="@string/calc_btn_MR" />
             <Button
                 android:id="@+id/calc_btn_C_Mplus"
                 style="@style/calc_btn_history"
-                android:text="@string/calc_btn_Mplus"/>
+                android:text="@string/calc_btn_Mplus" />
             <Button
                 android:id="@+id/calc_btn_Mmin"
                 style="@style/calc_btn_history"
-                android:text="@string/calc_btn_Mmin"/>
+                android:text="@string/calc_btn_Mmin" />
             <Button
                 android:id="@+id/calc_btn_MS"
                 style="@style/calc_btn_history"
-                android:text="@string/calc_btn_MS"/>
+                android:text="@string/calc_btn_MS" />
             <Button
                 android:id="@+id/calc_btn_Mdown"
                 style="@style/calc_btn_history"
-                android:text="@string/calc_btn_Mdown"/>
+                android:text="@string/calc_btn_Mdown" />
         </LinearLayout>
         <LinearLayout style="@style/calc_row_btn"
             android:layout_width="match_parent"
