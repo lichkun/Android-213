@@ -36,4 +36,6 @@
     <string name="calc_btn_Mdown">M↓</string>
     <string name="calc_inv_tpl">1 / (%s) =</string>
     <string name="calc_err_div_zero">Деление на 0</string>
+    <string name="calc_err_sqrt">Error sqrt</string>
+    <string name="calc_err_generic">Generic error</string>
 </resources>
