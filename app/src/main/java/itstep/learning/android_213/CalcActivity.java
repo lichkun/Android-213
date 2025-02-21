@@ -69,14 +69,18 @@ public class CalcActivity extends AppCompatActivity {
         outState.putCharSequence("tvResult", tvResult.getText());
         outState.putBoolean("needClear", needClear);
         outState.putBoolean("isErrorDisplayed", isErrorDisplayed);
+        outState.putCharSequence("currentExpression", currentExpression);
+
     }
 
     @Override
     protected void onRestoreInstanceState(@NonNull Bundle savedInstanceState) {
         super.onRestoreInstanceState(savedInstanceState);
         tvResult.setText(savedInstanceState.getCharSequence("tvResult"));
-        needClear = savedInstanceState.getBoolean("needClean");
+        needClear = savedInstanceState.getBoolean("needClear");
         isErrorDisplayed = savedInstanceState.getBoolean("isErrorDisplayed");
+        currentExpression = savedInstanceState.getCharSequence("currentExpression", "").toString();
+        tvExpression.setText(currentExpression);
     }
 
     //endregion
