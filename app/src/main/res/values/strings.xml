@@ -2,9 +2,10 @@
     <string name="app_name">Android-213</string>
     <string name="main_tv_title">Знакомство с Android</string>
     <string name="main_btn_calc">Калькулятор</string>
+    <string name="main_btn_anim">Animation</string>
     <string name="main_btn_game">Game</string>
 
-<!--  region Calculator-->
+    <!--  region Calculator-->
     <string name="calc_tv_title">Калькулятор</string>
     <string name="calc_btn_0">0</string>
     <string name="calc_btn_1">1</string>
@@ -41,15 +42,25 @@
     <string name="calc_err_sqrt">Error sqrt</string>
     <string name="calc_err_generic">Generic error</string>
     <string name="title_activity_game">GameActivity</string>
-<!-- endregion-->
+    <!-- endregion-->
 
-<!--    region Game-->
+    <!--    region Game-->
     <string name="game_tv_title">2048</string>
     <string name="game_tv_hint">Join the numbers and get the 2048 to title</string>
     <string name="game_btn_new">NEW</string>
     <string name="game_tv_undo">UNDO</string>
     <string name="score_n512">SCORE\n512</string>
     <string name="best_n512">BEST\n512</string>
+    <string name="game_tv_score_tpl">SCORE\n%s</string>
+    <string name="game_tv_best_tpl">BEST\n%s</string>
+    <string name="title_activity_anim">AnimActivity</string>
+    <!--    endregion-->
+
+    <!--    region Game-->
+    <string name="anim_title">Anim</string>
+    <string name="anim_tv_scale">Scale</string>
+    <string name="anim_tv_rotate">Rotate</string>
+    <string name="anim_tv_translate">Translate</string>
     <!--    endregion-->
 
 

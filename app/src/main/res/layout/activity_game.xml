@@ -81,41 +81,22 @@
             android:layout_weight="1"
             android:orientation="horizontal">
             <TextView
+                android:id="@+id/game_tile_00"
                 style="@style/game_tv_tile"
                 android:backgroundTint="@color/game_tile0_bg"
                 />
             <TextView
+                android:id="@+id/game_tile_01"
                 style="@style/game_tv_tile"
                 android:backgroundTint="@color/game_tile0_bg"
                 />
             <TextView
+                android:id="@+id/game_tile_02"
                 style="@style/game_tv_tile"
                 android:backgroundTint="@color/game_tile0_bg"
                 />
             <TextView
-                style="@style/game_tv_tile"
-                android:backgroundTint="@color/game_tile0_bg"
-                />
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1"
-            android:orientation="horizontal">
-            <TextView
-                style="@style/game_tv_tile"
-                android:backgroundTint="@color/game_tile0_bg"
-                />
-            <TextView
-                style="@style/game_tv_tile"
-                android:backgroundTint="@color/game_tile0_bg"
-                />
-            <TextView
-                style="@style/game_tv_tile"
-                android:backgroundTint="@color/game_tile0_bg"
-                />
-            <TextView
+                android:id="@+id/game_tile_03"
                 style="@style/game_tv_tile"
                 android:backgroundTint="@color/game_tile0_bg"
                 />
@@ -127,18 +108,22 @@
             android:layout_weight="1"
             android:orientation="horizontal">
             <TextView
+                android:id="@+id/game_tile_10"
                 style="@style/game_tv_tile"
                 android:backgroundTint="@color/game_tile0_bg"
                 />
             <TextView
+                android:id="@+id/game_tile_11"
                 style="@style/game_tv_tile"
                 android:backgroundTint="@color/game_tile0_bg"
                 />
             <TextView
+                android:id="@+id/game_tile_12"
                 style="@style/game_tv_tile"
                 android:backgroundTint="@color/game_tile0_bg"
                 />
             <TextView
+                android:id="@+id/game_tile_13"
                 style="@style/game_tv_tile"
                 android:backgroundTint="@color/game_tile0_bg"
                 />
@@ -150,18 +135,49 @@
             android:layout_weight="1"
             android:orientation="horizontal">
             <TextView
+                android:id="@+id/game_tile_20"
                 style="@style/game_tv_tile"
                 android:backgroundTint="@color/game_tile0_bg"
                 />
             <TextView
+                android:id="@+id/game_tile_21"
                 style="@style/game_tv_tile"
                 android:backgroundTint="@color/game_tile0_bg"
                 />
             <TextView
+                android:id="@+id/game_tile_22"
                 style="@style/game_tv_tile"
                 android:backgroundTint="@color/game_tile0_bg"
                 />
             <TextView
+                android:id="@+id/game_tile_23"
+                style="@style/game_tv_tile"
+                android:backgroundTint="@color/game_tile0_bg"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/game_tile_30"
+                style="@style/game_tv_tile"
+                android:backgroundTint="@color/game_tile0_bg"
+                />
+            <TextView
+                android:id="@+id/game_tile_31"
+                style="@style/game_tv_tile"
+                android:backgroundTint="@color/game_tile0_bg"
+                />
+            <TextView
+                android:id="@+id/game_tile_32"
+                style="@style/game_tv_tile"
+                android:backgroundTint="@color/game_tile0_bg"
+                />
+            <TextView
+                android:id="@+id/game_tile_33"
                 style="@style/game_tv_tile"
                 android:backgroundTint="@color/game_tile0_bg"
                 />
