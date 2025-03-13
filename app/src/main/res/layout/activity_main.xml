@@ -64,6 +64,18 @@
         android:background="@color/main_btn_bg"
         android:textSize="18sp"
         android:textStyle="bold"
+        android:layout_marginBottom="40dp"
+        app:backgroundTint ="@null"
+        />
+
+    <Button
+        android:id="@+id/main_btn_rate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/main_btn_rate"
+        android:background="@color/main_btn_bg"
+        android:textSize="18sp"
+        android:textStyle="bold"
         app:backgroundTint ="@null"
         />
 

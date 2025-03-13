@@ -4,6 +4,7 @@
     <string name="main_btn_calc">Калькулятор</string>
     <string name="main_btn_anim">Animation</string>
     <string name="main_btn_game">Game</string>
+    <string name="main_btn_rate">Rates</string>
 
     <!--  region Calculator-->
     <string name="calc_tv_title">Калькулятор</string>
@@ -61,7 +62,14 @@
     <string name="anim_tv_scale">Scale</string>
     <string name="anim_tv_rotate">Rotate</string>
     <string name="anim_tv_translate">Translate</string>
+    <string name="title_activity_rate">RateActivity</string>
     <!--    endregion-->
 
+    <string name="rate_load_failed">Ошибка загрузки</string>
+    <string name="rate_sv_description">Все курсы валют</string>
+
+    <string name="rate_info">
+    Повна назва: %1$s\nСкорочена назва: %2$s\nКод за r030: %3$d\nКурс на %4$s: 1 %2$s = %5$.4f HRN
+    </string>
 
 </resources>
