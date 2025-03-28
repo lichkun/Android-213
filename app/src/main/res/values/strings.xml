@@ -5,6 +5,7 @@
     <string name="main_btn_anim">Animation</string>
     <string name="main_btn_game">Game</string>
     <string name="main_btn_rate">Rates</string>
+    <string name="main_btn_chat">Chat</string>
 
     <!--  region Calculator-->
     <string name="calc_tv_title">Калькулятор</string>
@@ -67,9 +68,19 @@
 
     <string name="rate_load_failed">Ошибка загрузки</string>
     <string name="rate_sv_description">Все курсы валют</string>
+    <string name="rate_btn_close_description">Закрыть окно</string>
+    <string name="rate_field_choose_date">Дата</string>
+    <string name="rate_field_search">Поиск</string>
 
     <string name="rate_info">
     Повна назва: %1$s\nСкорочена назва: %2$s\nКод за r030: %3$d\nКурс на %4$s: 1 %2$s = %5$.4f HRN
     </string>
+
+    <string name="chat_tv_author">Author</string>
+    <string name="chat_tv_message">Text:</string>
+    <string name="chat_iv_bell_description">New notification</string>
+    <string name="chat_tv_message_hint">message</string>
+    <string name="chat_msg_empty_author">Enter your name</string>
+    <string name="chat_msg_empty_message">Put the message</string>
 
 </resources>

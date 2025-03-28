@@ -1,16 +1,5 @@
 package itstep.learning.android_213.orm;
 
-/*
-{
-
-"r030":36,
-"txt":"Австралійський долар",
-"rate":26.0875,"cc":"AUD",
-"exchangedate":"13.03.2025"
-
- }
-* */
-
 import org.json.JSONException;
 import org.json.JSONObject;
 
@@ -20,7 +9,7 @@ import java.util.Date;
 import java.util.Locale;
 
 public class NbuRate {
-    private static final SimpleDateFormat dateFormat =
+    public static final SimpleDateFormat dateFormat =
             new SimpleDateFormat("dd.MM.yyyy", Locale.ROOT);
     private int r030;
     private String text;
@@ -43,7 +32,7 @@ public class NbuRate {
             );
         }
         catch(ParseException ex){
-                throw new JSONException(ex.getMessage() );
+            throw new JSONException(ex.getMessage() );
         }
         return  nbuRate;
     }
@@ -87,6 +76,4 @@ public class NbuRate {
     public void setExchangeDate(Date exchangeDate) {
         this.exchangeDate = exchangeDate;
     }
-
-
 }
